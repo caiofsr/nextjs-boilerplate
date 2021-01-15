@@ -1,5 +1,5 @@
 function MyApp({ Component, pageProps }: any) {
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />
 }
 
-export default MyApp;
+export default MyApp
