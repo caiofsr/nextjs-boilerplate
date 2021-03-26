@@ -1,31 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <h1>
+        <img src="./img/icon-192.png" width="288" /><br />
+        The Next.js Boilerplate
+    </h1>
+    <p>Create Amazing systems with [Next.js](https://nextjs.org/) :rocket: :blue_heart:</p>
+</div>
+<div align="center">
+  <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="blank">
+    <img src="https://img.shields.io/badge/react-documentation-blue" />
+  </a>
+  <a href="https://nextjs.org/docs" target="blank">
+    <img src="https://img.shields.io/badge/next-documentation-blue" />
+  </a>
+</div>
+
+
+## Content
+
+- [Programming Principles](#programming-principles)
+- [Getting Started](#getting-started)
+- [Running the App](#running-the-app)
+- [Files and Directories Structure](#files-and-directories-structure)
+- [Atomic Design](#atomic-design)
+- [Storybook](#storybook)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
+
+
+## Programming Principles
+
+Whatever technology is used to develop software, the code must be clear and easy to maintain.
+
+In this section you will find some programming principles we follow like KISS, DRY, SOLID, Refactoring, YAGNI, TDD and others good practices that will help you write cleaner codes and will make you a better developer.
+
 
 ## Getting Started
 
-First, run the development server:
+First install the [node](https://nodejs.org/en/) >= 14.
+<!-- With the node installed we will need [Vue-cli](https://cli.vuejs.org/). -->
+Now clone the repository and run
+yarn install
 
-```bash
-npm run dev
-# or
+
+Next step
 yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Project setup
+yarn install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Compiles and hot-reloads for development
+yarn dev
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Compiles and minifies for production
+yarn build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Runs the production build
+yarn start
+
+
+### Run your unit tests
+yarn test
+
+
+### Run your end-to-end tests
+yarn test:e2e
+
+
+### Lints and fixes files
+yarn lint --fix
+
 
 ## Deploy on Vercel
 
