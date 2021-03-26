@@ -1,9 +1,9 @@
 <div align="center">
     <h1>
-        <img src="./img/icon-192.png" width="288" /><br />
+        <img src="./public/img/icon-192.png" width="288" /><br />
         The Next.js Boilerplate
     </h1>
-    <p>Create Amazing systems with [Next.js](https://nextjs.org/) :rocket: :blue_heart:</p>
+    <p>Create Amazing systems with Next.js :rocket: :blue_heart:</p>
 </div>
 <div align="center">
   <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="blank">
