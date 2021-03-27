@@ -2,6 +2,11 @@
   "name": "react-avancado-boilerplate",
   "version": "1.0.0",
   "private": true,
+  "author": "César O. Araújo <oaraujocesar@gmail.com>",
+  "contributors": [
+    "Caio Fernando <caiofsr13@gmail.com>",
+    "César O. Araújo <oaraujocesar@gmail.com>"
+  ],
   "scripts": {
     "prepare": "husky install",
     "dev": "next dev",
